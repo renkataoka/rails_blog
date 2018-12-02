@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  
+  root "blogs#index"
   resources :contacts
 
   resources :blogs do
